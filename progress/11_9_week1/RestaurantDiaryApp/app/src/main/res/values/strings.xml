@@ -1,0 +1,28 @@
+<resources>
+    <!--Name of app-->
+    <string name="app_name">Restaurant Diary</string>
+
+    <!-- Strings for the manifest -->
+    <string name="activity_want_to_visit">Want to Visit</string>
+    <string name="activity_visited">Visited</string>
+    <string name="activity_search">Find a new place</string>
+
+    <!-- Strings for activity_main -->
+    <string name="main_menu_been">Have Been to</string>
+    <string name="main_menu_want">Want to go</string>
+    <string name="main_menu_search">search</string>
+
+    <!-- Strings for activity_has_visited -->
+
+    <!-- Strings for activity_want to visit -->
+
+
+    <!-- Strings for activity_search -->
+    <string name="search_activity_user_input">Enter find a new place to eat</string>
+
+
+
+
+    <!--Dummy data insert string used in menu-->
+    <string name="action_insert_dummy_data">Insert dummy data</string>
+</resources>

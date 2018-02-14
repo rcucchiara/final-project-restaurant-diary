@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margin for activities used in form activities -->
+    <dimen name="form_margin">16dp</dimen>
+    <dimen name="main_menu_button_size">150dp</dimen>
+    <dimen name="form_image_height">150dp</dimen>
+    <dimen name="form_button_width">104dp</dimen>
+    <dimen name="form_button_height">48dp</dimen>
+
+</resources>

@@ -1,2 +1,2 @@
-# final-project-restaurant-diary
-Final project for Mobile App Programming 1
+RestaurantDiary
+by: Jake Adamson, Dave DaCosta, Rob Cucchiara, Nathan Ko

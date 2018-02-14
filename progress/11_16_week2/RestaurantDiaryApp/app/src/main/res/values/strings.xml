@@ -1,0 +1,42 @@
+<resources>
+    <!--Name of app-->
+    <string name="app_name">Restaurant Diary</string>
+
+    <!-- Strings for the manifest -->
+    <string name="activity_want_to_visit">Want to Visit</string>
+    <string name="activity_visited">Visited</string>
+    <string name="activity_search">Find a new place</string>
+    <string name="activity_form">Add a new Restaurant</string>
+
+    <!-- Strings for activity_main -->
+    <string name="main_menu_been">Have Been to</string>
+    <string name="main_menu_want">Want to go</string>
+    <string name="main_menu_search">search</string>
+
+    <!-- Strings for activity_has_visited -->
+
+    <!-- Strings for activity_want to visit -->
+
+
+    <!-- Strings for activity_search -->
+    <string name="search_activity_user_input">Enter area that you would like to search</string>
+    <string name="loading_indicator">Enter to find a new place to eat</string>
+    <string name="no_internet_connection">There\'s no internet connection</string>
+    <string name="no_restaurants">Enter to find a new place to eat</string>
+
+    <!-- Strings for the Form activities -->
+    <string name="form_name">Name</string>
+    <string name="form_address">Address</string>
+    <string name="form_note">Note</string>
+    <string name="form_button_save">Save</string>
+    <string name="form_hint_name">Restaurant Name</string>
+    <string name="form_hint_address">Street Address</string>
+    <string name="form_hint_note">Begin judgment here! Do not worry, no one else can read this.</string>
+
+    <!--Dummy data insert string used in menu-->
+    <string name="action_insert_dummy_data">Insert dummy data</string>
+
+    <!-- String when there is no image in the database used in CursoryAdapter -->
+    <string name="no_available_image">No Available Image Touch to Take One</string>
+    <string name="empty_view_subtitle_text">You have not visited any restaurants yet!</string>
+</resources>

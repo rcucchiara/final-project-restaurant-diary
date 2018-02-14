@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- This does not seem to be working but i am leaving it here as a jumping off point for future work -->
+    <item android:drawable="@android:color/transparent" android:state_pressed="true"/>
+    <item android:drawable="@android:color/transparent"/>
+</selector>

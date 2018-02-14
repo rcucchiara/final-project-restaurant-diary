@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/form_margin"
+    android:orientation="vertical">
+
+    <!-- Name input -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- label -->
+        <TextView
+            style="@style/FormLabelStyle"
+            android:text="@string/form_name"/>
+
+        <!-- input for name -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:orientation="vertical">
+
+            <!-- User enters NAME of restaurant here -->
+            <EditText
+                android:id="@+id/form_want_to_visit_name"
+                style="@style/FormEditTextShortStyle"
+                android:hint="@string/form_hint_name"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- address input -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- label -->
+        <TextView
+            style="@style/FormLabelStyle"
+            android:text="@string/form_address"/>
+
+        <!-- input for address -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:orientation="vertical">
+
+            <!-- User enters ADDRESS of restaurant here -->
+            <EditText
+                android:id="@+id/form_want_to_visit_address"
+                style="@style/FormEditTextShortStyle"
+                android:hint="@string/form_hint_address" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- note input -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- label -->
+        <TextView
+            style="@style/FormLabelNoteStyle"
+            android:text="@string/form_note"/>
+
+        <EditText
+            android:id="@+id/form_want_to_visit_note"
+            style="@style/FormEditTextLongStyle" />
+
+    </LinearLayout>
+
+    <!-- save button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- The button for saving data on this page -->
+        <Button
+            android:id="@+id/form_want_to_visit_button_save"
+            style="@style/FormSaveButtonStyle"
+            android:paddingHorizontal="40dp"
+            android:paddingVertical="16dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

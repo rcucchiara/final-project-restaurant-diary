@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.restaurantdiary">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_hot_dog_with_mustard"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_hot_dog_with_mustard_round"
+        android:supportsRtl="true"
+        android:theme="@style/MainMenuTheme">
+        <activity android:name="com.example.android.restaurantdiary.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ProspectiveRestaurantActivity"
+            android:label="@string/activity_want_to_visit"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".VisitedRestaurantActivity"
+            android:label="@string/activity_visited"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".SearchRestaurantActivity"
+            android:label="@string/activity_search"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".VisitedRestaurantFormActivity"
+            android:label="@string/activity_form"
+            android:parentActivityName=".VisitedRestaurantActivity"
+            android:theme="@style/FormTheme"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".VisitedRestaurantActivity"/>
+        </activity>
+
+        <activity
+            android:name=".ProspectiveRestaurantFormActivity"
+            android:label="@string/activity_form"
+            android:parentActivityName=".ProspectiveRestaurantActivity"
+            android:theme="@style/FormTheme"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProspectiveRestaurantActivity"/>
+        </activity>
+
+        <provider
+            android:name="com.example.android.restaurantdiary.data.RestaurantProvider"
+            android:authorities="com.example.android.restaurantdiary"
+            android:exported="false" />
+    </application>
+
+</manifest>

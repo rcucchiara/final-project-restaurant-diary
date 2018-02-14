@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#893301</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="listOddView">#0a8885</color>
+    <color name="formSaveButtonColor">#00ff00</color>
+    <color name="formDeleteButtonColor">#ff0000</color>
+    <color name="formTextColor">#000000</color>
+    <color name="colorFormPrimary">#550189</color>
+    <color name="colorFormAccent">#d67800</color>
+    <color name="coffeeColor">#C0FFEE</color>
+    <color name="ListViewGrey">#cccccc</color>
+    <color name="ListItemDefault">#519fff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="emptyListViewTextColor">#A2AAB0</color>
+    <color name="searchRestaurantNameColor">#000000</color>
+    <color name="searchRestaurantTextColor">#303030</color>
+    <color name="searchTextColorDarker">#232323</color>
+</resources>

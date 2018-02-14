@@ -1,0 +1,94 @@
+<resources>
+    <!--Name of app-->
+    <string name="app_name">Restaurant Diary</string>
+
+    <!-- Strings for the manifest -->
+    <string name="activity_want_to_visit">Want to Visit</string>
+    <string name="activity_visited">Visited</string>
+    <string name="activity_search">Find a new place</string>
+    <string name="activity_form">Add a new Restaurant</string>
+
+    <!-- Strings for activity_main -->
+    <string name="main_menu_been">Visited</string>
+    <string name="main_menu_want">Want to Visit</string>
+    <string name="main_menu_search">Find a restaurant</string>
+    <string name="main_menu_title">My Restaurant Diary</string>
+
+    <!-- Strings for activity_search -->
+    <string name="rating_head">Rating</string>
+    <string name="search_activity_hint">Lowell</string>
+    <string name="search_activity_name_input">Find</string>
+    <string name="search_activity_location_input">Near</string>
+    <string name="loading_indicator">Enter to find a new place to eat</string>
+    <string name="no_internet_connection">There\'s no internet connection</string>
+    <string name="no_restaurants">Enter to find a new place to eat</string>
+    <string name="search_activity_button_label">Search</string>
+    <string name="search_food_type">Type of food:&#160;</string>
+    <string name="search_address">Street address:&#160;</string>
+    <string name="search_phone">Phone:&#160;</string>
+    <string name="search_rating">Rating:&#160;</string>
+
+    <!-- Strings for the Form activities -->
+    <string name="form_name">Name</string>
+    <string name="form_address">Address</string>
+    <string name="form_note">Notes</string>
+    <string name="form_phone">Phone</string>
+    <string name="form_button_save">Save</string>
+    <string name="form_button_delete">Delete</string>
+    <string name="form_hint_name">Restaurant Name</string>
+    <string name="form_hint_address">Street Address</string>
+    <string name="form_hint_note">Begin judgment here!</string>
+    <string name="form_hint_phone">xxx-xxx-xxxx</string>
+
+    <!--Dummy data insert string used in menu-->
+    <string name="action_insert_dummy_data">Insert dummy data</string>
+
+    <!-- String when there is no image in the database used in CursoryAdapter -->
+    <string name="no_available_image">No Available Image Touch to Take One</string>
+    <string name="empty_view_subtitle_text">You have not visited any restaurants yet!</string>
+    <string name="editor_activity_title_new_restaurant">Add a restaurant</string>
+    <string name="editor_activity_title_edit_restaurant">Edit restaurant</string>
+
+    <string name="incomplete_form">The form is incomplete. Please fill out all the required information.</string>
+
+    <string name="editor_insert_restaurant_successful">Item saved</string>
+
+    <!-- Toast message in editor when new restaurant has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_restaurant_failed">Error with saving restaurant</string>
+
+    <!-- Toast message in editor when current restaurant was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_restaurant_succesful">Item updated</string>
+
+    <!-- Toast message in editor when current restaurant has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_restaurant_failed">Error with updating restaurant</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current restaurant [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current restaurant [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current restaurant [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this restaurant?</string>
+
+    <!-- Toast message in editor when current restaurant was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_restaurant_successful">Item deleted</string>
+
+    <!-- Toast message in editor when current restaurant has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_restaurant_failed">Error with deleting restaurant</string>
+
+    <!-- Label for editor menu option to save restaurant and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current restaurant [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+</resources>

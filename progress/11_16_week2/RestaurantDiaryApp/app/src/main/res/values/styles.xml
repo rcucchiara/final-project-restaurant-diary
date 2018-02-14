@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- theme for the short form prompts -->
+    <style name="FormLabelStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/formTextColor</item>
+    </style>
+
+    <!-- theme for the short edit texts in the form -->
+    <style name="FormEditTextShortStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- theme for the note label in the form activities-->
+    <style name="FormLabelNoteStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/formTextColor</item>
+    </style>
+
+    <!-- theme for the note paragraph in form activities -->
+    <style name="FormEditTextLongStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textMultiLine|textCapSentences</item>
+        <item name="android:minLines">1</item>
+        <item name="android:lines">5</item>
+        <item name="android:maxLines">10</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:hint">@string/form_hint_note</item>
+    </style>
+
+    <!-- theme for the save button in the form -->
+    <style name="FormSaveButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/form_button_save</item>
+        <item name="android:background">@color/formSaveButtonColor</item>
+    </style>
+
+</resources>

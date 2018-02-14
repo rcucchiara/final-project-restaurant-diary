@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/form_margin"
+        android:orientation="vertical">
+
+        <!-- Image -->
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/form_image_height"
+            android:scaleType="fitCenter"
+            android:src="@drawable/restaurant_scribblenauts" />
+
+        <!-- Name input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- label -->
+            <TextView
+                style="@style/FormLabelStyle"
+                android:text="@string/form_name"/>
+
+            <!-- input for name -->
+            <LinearLayout style="@style/FormInputFieldStyle">
+
+                <!-- User enters NAME of restaurant here -->
+                <EditText
+                    android:id="@+id/form_visited_name"
+                    style="@style/FormEditTextShortStyle"
+                    android:hint="@string/form_hint_name"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- address input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- label -->
+            <TextView
+                style="@style/FormLabelStyle"
+                android:text="@string/form_address"/>
+
+            <!-- input for address -->
+            <LinearLayout style="@style/FormInputFieldStyle">
+
+                <!-- User enters ADDRESS of restaurant here -->
+                <EditText
+                    android:id="@+id/form_visited_address"
+                    style="@style/FormEditTextShortStyle"
+                    android:hint="@string/form_hint_address" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- address input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- label -->
+            <TextView
+                style="@style/FormLabelStyle"
+                android:text="@string/form_phone"/>
+
+            <!-- input for address -->
+            <LinearLayout style="@style/FormInputFieldStyle">
+
+                <!-- User enters ADDRESS of restaurant here -->
+                <EditText
+                    android:id="@+id/form_visited_phone"
+                    style="@style/FormEditTextShortStyle"
+                    android:hint="@string/form_hint_phone" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- note label  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- label -->
+            <TextView
+                style="@style/FormLabelStyle"
+                android:text="@string/form_note"/>
+        </LinearLayout>
+
+        <!-- note input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/form_visited_note"
+                style="@style/FormEditTextLongStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
